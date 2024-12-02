@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] # Array donde nos vamos a estar moviendo #
 arr1 = arr [:2] # Seleccion de los primeros dos elementos #
 arr2 = arr[-5:] # Seleccion de los ultimos cinco elementos #
