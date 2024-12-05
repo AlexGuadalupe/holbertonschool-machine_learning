@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+This module contains a function to calculate the transpose of a 2D matrix.
+"""
 
 def matrix_transpose(matrix):
     """
