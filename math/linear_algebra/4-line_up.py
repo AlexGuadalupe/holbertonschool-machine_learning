@@ -32,3 +32,4 @@ if __name__ == "__main__":
     arr1 = [1.5, 2.5, 3.5]
     arr2 = [4.5, 5.5, 6.5]
     print(add_arrays(arr1, arr2))  # Output: [6.0, 8.0, 10.0]
+    
