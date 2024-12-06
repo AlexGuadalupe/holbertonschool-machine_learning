@@ -19,7 +19,8 @@ def mat_mul(mat1, mat2):
     if len(mat1[0]) != len(mat2):
         return None
 
-    result = [[sum(a * b for a, b in zip(row, col)) for col in zip(*mat2)] for row in mat1]
+    result = [[sum(a * b for a, b in zip(row, col))
+               for col in zip(*mat2)] for row in mat1]
     return result
 
 
@@ -27,16 +28,20 @@ if __name__ == "__main__":
     # Test cases
     mat1 = [[1, 2], [3, 4], [5, 6]]
     mat2 = [[7, 8, 9], [10, 11, 12]]
-    print(mat_mul(mat1, mat2))  # Output: [[27, 30, 33], [61, 68, 75], [95, 106, 117]]
+    print(mat_mul(mat1, mat2))
+    # Output: [[27, 30, 33], [61, 68, 75], [95, 106, 117]]
 
     mat1 = [[1, 2, 3], [4, 5, 6]]
     mat2 = [[7, 8], [9, 10], [11, 12]]
-    print(mat_mul(mat1, mat2))  # Output: [[58, 64], [139, 154]]
+    print(mat_mul(mat1, mat2))
+    # Output: [[58, 64], [139, 154]]
 
     mat1 = [[1, 2, 3]]
     mat2 = [[4], [5], [6]]
-    print(mat_mul(mat1, mat2))  # Output: [[32]]
+    print(mat_mul(mat1, mat2))
+    # Output: [[32]]
 
     mat1 = [[1, 2]]
     mat2 = [[3, 4], [5, 6], [7, 8]]
-    print(mat_mul(mat1, mat2))  # Output: None
+    print(mat_mul(mat1, mat2))
+    # Output: None
