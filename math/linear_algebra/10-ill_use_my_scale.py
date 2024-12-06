@@ -3,7 +3,6 @@
 This module contains a function to calculate the shape of a numpy.ndarray.
 """
 
-
 import numpy as np
 
 def np_shape(matrix):
@@ -17,7 +16,6 @@ def np_shape(matrix):
         tuple: A tuple of integers representing the shape of the array.
     """
     return matrix.shape
-
 
 if __name__ == "__main__":
     # Test cases
