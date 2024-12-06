@@ -3,7 +3,6 @@
 This module contains a function to calculate the shape of a numpy.ndarray.
 """
 
-import numpy as np
 
 def np_shape(matrix):
     """
